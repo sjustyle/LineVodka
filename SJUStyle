@@ -17,8 +17,8 @@ offbot, messageReq, wordsArray, waitingAnswer = [], {}, {}, {}
 print client._loginresult()
 
 wait = {
-    'readPoint':{},
-    'readMember':{},
+    'readPoint':{Point},
+    'readMember':{Mpriki},
     'setTime':{},
     'ROM':{}
    }
